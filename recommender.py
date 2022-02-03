@@ -29,6 +29,6 @@ def contents_based_recommender(n,m):
     for i,s in similar_books[:m]:
         print(get_title_from_genre_index(i))
 
-pickle.dump(contents_based_recommender,open('model.pkl','wb'))
+
 
 
